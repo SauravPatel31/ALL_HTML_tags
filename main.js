@@ -1,0 +1,1 @@
+document.write("This is java script and Welcom to java script")

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+  <style>
+    body {
+      background-color: black;
+    }
+    h2 {
+      color: #ffff;
+    }
+  </style>
+  <title>Marquee Tag</title>
+</head>
+<body>
+  <!--Attribute is font size Direction= (1) right (2)left (3)up
+      behavior=(1)alternate (2)slide(one time scroling) (3) scroll  -->
+  <marquee
+    bgcolor="black"
+    scrollamount="50"
+    behavior="alternate"
+    direction="right"
+  >
+    <h2>Hello World</h2></marquee
+  >
+  <!--width,height-->
+  <marquee bgcolor="black" width="50%" behavior="slide" direction="left">
+    <h2>Hello Students</h2></marquee
+  ><br /><br />
+  <!--up,down,scrollamount-->
+  <marquee
+    bgcolor="black"
+    scrollamount="25"
+    width="40%"
+    height="10%"
+    direction="up"
+  >
+    <h2>Hello Students</h2></marquee
+  >
+
+  <marquee bgcolor="black" width="40%" direction="down">
+    <h2>Hello Students</h2></marquee
+  >
+  <marquee bgcolor="black" behavior="" direction="right" scrollamount="120">
+    <img src="running-dog-gif-9.gif" alt="" />
+  </marquee>
+
+  <!--nested marquee start-->
+  <!-- <marquee bgcolor="black" behavior="" direction="right" scrollamount="30">
+    <img src="duck-walking.gif" alt="" />
+    <marquee behavior="" direction="right">
+      <img src="bird-dance.gif" alt="" />
+    </marquee>
+  </marquee>-->
+  <!--nested marquee end-->
+</body>

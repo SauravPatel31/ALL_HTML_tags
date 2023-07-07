@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<head>
+  <title>input tag</title>
+  <style>
+    body {
+      background-color: black;
+      background-image: url();
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: contents;
+
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    form {
+      width: 810px;
+      margin: 250px auto;
+      border: white solid 10px;
+      color: black;
+      background-image: url("");
+      background-size: cover;
+      background-attachment: fixed;
+      display: block;
+      /*........................................*/
+      border: solid black 3px;
+      margin: 200px auto;
+      background-image: url("images/daz9nhe-075624cd-e385-421e-b412-f7c22fc6e8d1.gif");
+      border-radius: 15px;
+      border-image-slice: 77;
+      border-image-repeat: round;
+      margin: 80px auto;
+      width: 500px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 10px;
+      text-align: justify;
+    }
+  </style>
+  <!-- Type Attributs:-text,Password,tel,Date,radio,checkbox,time,month,week,color,file(accept),numer,range,Search,URl,image,Autofocus,checkd,disabled,formaction
+     list,maxlenght,multipal,placeholder,readonly,required,size,step-->
+</head>
+<body>
+  <form action="Submit.html" method="POST">
+    Name:<input
+      type="text"
+      name="username"
+      title="Your Name"
+      autofocus
+      maxlength="18"
+      placeholder="Enter Your Name"
+      size="20"
+      required
+    /><br /><br />
+    Mobil:<input
+      type="tel"
+      name="userMobil"
+      maxlength="10"
+      placeholder="Enter Your Mobil number"
+      size="20"
+      required
+    /><br /><br />
+    Mail id:<input
+      type="email"
+      name="usermail"
+      maxlength="20"
+      placeholder="Enter Your Mail"
+      required
+      size="20"
+    /><br /><br />
+    Password:<input
+      type="password"
+      name="userpassword"
+      maxlength="8"
+      title="Plese Eight Digits Password"
+      placeholder="Enter Your password"
+      size="20"
+      required
+    /><br /><br />
+    D.O.B:<input
+      type="date"
+      name="D.O.B"
+      placeholder="Enter Your birth Date"
+      required
+    /><br /><br />
+    Document: <input type="file" multiple required /><br /><br />
+    Total Document: <input type="number" step="1" size="4" /><br /><br />
+    <input type="text" readonly value="Thanks For Your Didels" />
+
+    <h3>Gender</h3>
+    Male<input type="radio" name="Gender" required /><br />
+    Fmale<input type="radio" name="Gender" required /><br />
+    Ohter<input type="radio" name="Gender" required /><br />
+
+    <h3>Language</h3>
+    English<input type="checkbox" name="Language" disabled /><br />
+    Hindi<input type="checkbox" name="Language" required /><br />
+    Gujarati<input
+      type="checkbox"
+      name="Language"
+      checked
+      required
+    /><br /><br />
+    <!--.......................................................-->
+
+    time:<input type="time" name="submit time" required><br><br>
+        birth Month<input type="month" name="DOBomnth"><br><br>
+        Week: <input type="week" name="week"><br><br>
+
+        Color pick: <input type="color" name="uicolor"><br><br>
+
+        Your Photo Uplod: <input type="file" name="photofile" required><br><br>
+        Person: <input type="number" name="Person" min="1" max="10" value="number" required><br><br>
+
+        Range: <input type="range" name="range" min="0" max="10"><br><br>
+
+        Search: <input type="search" name="searchfile"><br><br>
+
+        Websit URL: <input type="url" name="websiturl"><br><br>
+        Fruits: <input list="Fruits" required>
+        <datalist id="Fruits">
+            <option value="Apple"></option>
+                <option value="Banana"></Bption>
+                    <option value="Lichi"></option>
+        </datalist>
+
+        <input type="file" accept="audio/*,images/*video/*" required><br><br>
+
+    <!--.......................................................................-->
+   <input type="submit"><br /><br />
+
+    <button
+      type="Reset"
+      style="border: 3px solid black; background-color: darkturquoise"
+    >
+      Reset
+    </button>
+  </form>
+</body>
